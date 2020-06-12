@@ -11,6 +11,12 @@ app.get('/signin', function(req, res) {
     res.sendFile(path.join(__dirname + '/pages/login.html'));
 });
 
+app.get('/Patient', function(req, res) {
+    res.sendFile(path.join(__dirname + '/pages/patientinitial.html'));
+});
+app.get('/Patient/Dash', function(req, res) {
+    res.sendFile(path.join(__dirname + '/pages/patientdash.html'));
+});
 
 app.listen(3002);
 
