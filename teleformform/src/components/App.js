@@ -117,19 +117,19 @@ class App extends Component {
                 
                 <form onSubmit={this.onSubmit} >
                   <label for="patid">Patient Id &nbsp;</label>
-                  <input type='text' id='patid' onChange={this.captureFile} placeholder="Patient ID"/>
+                  <input type='text' id='patid' placeholder="Patient ID"/>
                   <br />
                   <br />
                   <label for="docid">Doctor ID &nbsp;</label>
-                  <input type='text' id='docid' onChange={this.captureFile} placeholder="Doctor ID"/>
+                  <input type='text' id='docid' placeholder="Doctor ID"/>
                   <br />
                   <br />
                   <label for="teleurl">Google Meets url &nbsp;</label>
-                  <input type='text' id='teleurl' onChange={this.captureFile} placeholder="Google Meets url"/>
+                  <input type='text' id='teleurl' placeholder="Google Meets url"/>
                   <br />
                   <br />
                   <label for="testkitid">Test Kit ID &nbsp;</label>
-                  <input type='text' id='testkitid' onChange={this.captureFile} placeholder="Test Kit id"/>
+                  <input type='text' id='testkitid' placeholder="Test Kit id"/>
                   <br />
                   <br />
                   <input type='submit' />
