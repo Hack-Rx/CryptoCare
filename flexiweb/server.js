@@ -45,6 +45,8 @@ app.get('/Checker/Indigo/Results', function(req, res) {
     res.sendFile(path.join(__dirname + '/src/pages/checkerresults.html'));
 });
 
+
+
 app.listen(3002);
 
 app.use(express.static('public'))
