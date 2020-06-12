@@ -1,6 +1,3 @@
-.logincard{
-  height: 680px;
-}
 .cardtext{
   margin-top: 16px;
 }
@@ -43,4 +40,53 @@
 }
 .btnrow{
   padding-left: 50px;
+}
+.padleft{
+  padding-left: 115px;
+  padding-bottom: 15px;
+}
+.nav-pills .nav-link.active{
+  color: #288cff;
+}
+.fileupload{
+  width: 200px;
+}
+.cardfont{
+  font-size: 125%;
+}
+.addresspad{
+  margin-bottom: 0px;
+}
+.patbtn{
+  width: 160px;
+}
+.attres{
+  width: 150px;
+}
+.logincard{
+  height: 680px;
+}
+.lessmargin{
+  font-size: 100%;
+  margin-bottom: 2px;
+}
+.avatpad{
+  padding-top: 10px;
+}
+.dbutn{
+  padding-right: 46px;
+} 
+.btnreport{
+  width: 130px;
+}
+.checkerbtn{
+  width: 230px;
+}
+
+.checkbtnleft{
+  padding-left: 50px;
+}
+
+.resultupld{
+  width: 50px;
 }
