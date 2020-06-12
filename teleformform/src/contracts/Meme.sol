@@ -1,9 +1,9 @@
 pragma solidity ^0.5.0;
 
-contract Meme {
-  string memeHash;
+contract hash {
+  string Hash;
 
-  function set(string memory _memeHash) public {
+  function set(string memory Hash) public {
     memeHash = _memeHash;
   }
 

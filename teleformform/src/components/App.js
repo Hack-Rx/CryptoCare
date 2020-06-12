@@ -5,6 +5,7 @@ import Meme from '../abis/Meme.json'
 
 const ipfsClient = require('ipfs-http-client')
 const ipfs = ipfsClient({ host: 'ipfs.infura.io', port: 5001, protocol: 'https' }) // leaving out the arguments will default to these values
+const all = require('it-all')
 
 class App extends Component {
 
@@ -66,20 +67,22 @@ class App extends Component {
     }
   }
 
-  onSubmit = (event) => {
+  onSubmit = async(event) => {
     event.preventDefault()
     console.log("Submitting file to ipfs...")
-    ipfs.add(this.state.buffer, (error, result) => {
-      console.log('Ipfs result', result)
-      if(error) {
-        console.error(error)
-        return
-      }
-       this.state.contract.methods.set(result[0].hash).send({ from: this.state.account }).then((r) => {
-         return this.setState({ memeHash: result[0].hash })
-       })
+    const data = JSON.stringify({
+      name: "Devansh",
+    link0: "",
+    link1: "",
+    link2: ""
     })
+    const ipfsHash = ipfs.add(data)
+    const arr = await all(ipfsHash)
+    console.log(arr)
+    
+      
   }
+
 
   render() {
     return (
@@ -91,7 +94,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            FlexiTest Port 
+            CryptoCare 
           </a>
         </nav>
         <div className="container-fluid mt-5">
