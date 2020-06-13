@@ -1,3 +1,10 @@
+## How to run ZKP on a linux system:
+	* Download the combined.zok and zkp.sh file from the repository.
+	* Change the properties of zkp.sh file to executable
+	* Open a terminal windoew in the folder
+	* run ./zkp.sh
+#
+
 # ZK-Proofs in CryptoCare
 We plan to implement multiple Zero Knowledge Proofs  in our project CryptoCare. The following content describes the ways we see the zkproof(s) being used in the project, covering the conceptual and functional aspects of it along the way. ZK-Proofs have undeniably become a benchmark in privacy protecting technologies.
 
