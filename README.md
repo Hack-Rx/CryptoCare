@@ -53,3 +53,43 @@ https://github.com/Hack-Rx/CryptoCare/blob/master/README.md
 
 https://github.com/Hack-Rx/CryptoCare/blob/master/Zero-Knowledge%20Proofs/Readme.md
 
+## Illustrations
+
+
+## Flexi Test Port : Tele Test and Passport Workflow
+
+At Home Collection; At Lab Execution
+
+<img src="images/Patient-Doctor.png">
+
+At Home Collection; At Home Execution ( At Home Antibody Tests )
+
+<img src="images/how_it_works.png">
+
+<img src="Zero-Knowledge Proofs/images/ipfs.png"> <img src="Zero-Knowledge Proofs/images/json.png"><img src="Zero-Knowledge Proofs/images/fire.png" width="100">
+
+
+
+## Flexi Test Port :  ZK Proof to verify Patient(or Consumer) safety
+ 
+ <img src="Zero-Knowledge Proofs/images/covid.png">
+
+The Checker is an abstraction and could include individuals or organizations such as  airport authorities, event management authorities, law enforcement or any such organization who has gained and can prove the verifier status.
+
+<img src="Zero-Knowledge Proofs/images/zkpIMP.PNG">
+
+
+
+# Team
+
+
+ * ### Devansh Swarup 
+   [<img src="images/linkedin.png">](https://in.linkedin.com/in/devansh-swarup-85436554)     [<img src="images/github.png">](https://github.com/devansh2712)
+ * ### Dhruv Upadhyay
+   [<img src="images/linkedin.png">](https://www.linkedin.com/in/intmanear/)     [<img src="images/github.png">](https://github.com/IntManear)
+ * ### Shobit Puri 
+   [<img src="images/linkedin.png">](https://www.linkedin.com/in/shobit-puri-3b30bb18b/)     [<img src="images/github.png">](https://github.com/ScarletSpidey)
+* ### Aryan Pandey 
+   [<img src="images/linkedin.png">](https://www.linkedin.com/in/aryan-pandey/)     [<img src="images/github.png">](https://github.com/ap-aryanpandey)
+
+
