@@ -86,7 +86,7 @@ The Checker is an abstraction and could include individuals or organizations suc
 
 
 # Team
-
+<img src="images/Crypto Care.png">
 
  * ### Devansh Swarup 
    [<img src="images/linkedin.png">](https://in.linkedin.com/in/devansh-swarup-85436554)     [<img src="images/github.png">](https://github.com/devansh2712)
